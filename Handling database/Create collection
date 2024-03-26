@@ -1,0 +1,11 @@
+Method 1:
+
+You can create a collection using the createCollection() database method.
+
+db.createCollection("posts")
+
+Method 2:
+
+You can also create a collection during the insert process.
+
+db.posts.insertOne(object)
