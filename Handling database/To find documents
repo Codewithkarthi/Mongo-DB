@@ -1,0 +1,8 @@
+find():
+
+db.posts.find()
+
+findOne():
+
+db.posts.findOne()
+
