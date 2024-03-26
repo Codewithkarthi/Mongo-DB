@@ -1,11 +1,11 @@
-updateOne():
+# updateOne():
 
 db.posts.find( { title: "Post Title 1" } )
 
-update using set operator:
+# update using set operator:
 
 db.posts.updateOne( { title: "Post Title 1" }, { $set: { likes: 2 } } )
 
-updateMany():
+# updateMany():
 
 db.posts.updateMany({}, { $inc: { likes: 1 } })
