@@ -1,0 +1,7 @@
+Show all databases:
+
+show dbs
+
+Change or Create a Database:
+
+use blog
