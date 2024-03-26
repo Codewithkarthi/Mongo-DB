@@ -1,7 +1,7 @@
-deleteOne():
+# deleteOne():
 
 db.posts.deleteOne({ title: "Post Title 5" })
 
-deleteMany():
+# deleteMany():
 
 db.posts.deleteMany({ category: "Technology" })
