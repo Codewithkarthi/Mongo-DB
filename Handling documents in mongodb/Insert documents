@@ -1,4 +1,4 @@
-insertOne():
+# insertOne():
 
 db.posts.insertOne({
   title: "Post Title 1",
@@ -9,7 +9,7 @@ db.posts.insertOne({
   date: Date()
 })
 
-insertMany():
+# insertMany():
 
 db.posts.insertMany([  
   {
