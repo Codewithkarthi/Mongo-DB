@@ -1,4 +1,3 @@
-
 # Mongo-DB:
 MongoDB is a document database. It stores data in a type of JSON format called BSON.It is a no sql database .
 
